@@ -1,0 +1,2 @@
+ script src=httpsapps.elfsight.compplatform.js deferscript
+  div class=elfsight-app-057652cd-4f01-4e11-94c5-0c83825a2c77div
