@@ -20,12 +20,17 @@ body{
     text-align: center;
   
 }
+.textos-header h1{
+    font-size: 50px;
+    color:#fff;
+}
+
 
 header{
     width: 100%;
     height: 600px;
     background: #bc4e9c;
-    background: -webkit-linear-gradient(to right, #f80759, #bc4e9c);
+    background: -webkit-linear-gradient(to right, hsla(340, 95%, 50%, 0.541), hsla(317, 45%, 52%, 0.616)), url(../imagenes/baixa.jfif);
     background: linear-gradient(to right, hsla(340, 95%, 50%, 0.541), hsla(317, 45%, 52%, 0.616)), url(../imagenes/baixa.jfif);
     background-size: cover;
     background-attachment: fixed;
@@ -53,14 +58,6 @@ header .textos-header{
     flex-direction: column;
     text-align: center;
 }
-.textos-header h1{
-    font-size: 50px;
-    color: #fff;
-}
-
-.textos-header h2{
-    margin-bottom: 60px;
-}
 
 nav > a:hover{
     text-decoration: underline;
@@ -68,30 +65,35 @@ nav > a:hover{
 
 .wave{
     position: absolute;
-    bottom: -4px;
+    bottom: -5px;
     width: 100%;
 }
-.contenedor{
-    margin: 150px auto;
-    width: 50%;
-    padding: 15px;
+
+
+/*ABOUTUS*/
+
+
+main .sobre-nosotros{
+    padding: 30px 0 60px 0;
+}
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
 }
 
 .imagenaboutvacuna{
-    float: left;
-    padding: 0 10px 0 0;
-    width: 40%;
+    width: 48%;
+}
 
+.sobre-nosotros .texto-vacuna{
+    width: 48%;
 }
-.texto-vacuna{
-    margin-top: 50px;
 
+
+.contenido-textos p{
+    padding: 0px 0px 75px 15px;
+    font-weight: 300;
+    text-align: justify;
+    
 }
-.contenido-textos h3 span{
-    display: inline-block;
-    text-align: center;
-    width: 30px;
-    height: 30px;
-    padding: 2px;
-    margin-right: 5px;
-}
+
